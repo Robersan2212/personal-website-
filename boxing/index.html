@@ -9,6 +9,7 @@
 </head>
 <body>
     <div id="content">
+        <div id="navbar">
     <header>
         <a href="logo_link" href="index.html">
             <img class="logo" src="images/rsz_22gloves_on-logos.jpg" alt="Gloves on Logo">
@@ -19,16 +20,16 @@
             <a href="motivation.html">Motivation</a>
             <a href="contact_us.html">Contact us</a>
         </nav>
+        </div>
     </header>
     <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="images/rsz_hero_image.jpg" alt="Hero Image">
+        <div class="container">
+            <img class="image" src="images/rsz_1gloves_hero_image.jpg" alt="Hero Image">
 
         </div>
-        <section id="hero-msg">
-            <h1 class="home-title">Let's Get Ready to Rumble</h1>
-             <h2>Start Now</h2>
-        </section>
+        <div class="overlay">
+            <h1 class="text">Let's Get Ready to Rumble</h1>
+        </div>
       <section id="about1">
       <h3>About us</h3>
       <p>Are you ready to find your inner fighter? This website will guide you through 
@@ -42,5 +43,19 @@
     <p><a href="site-plan.html">Site Plan</a></p>
     <p><a href="contactus.html">Contact Us</a></p>
  </footer>
+ <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 </body>
 </html>
