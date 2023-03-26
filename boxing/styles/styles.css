@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@300&family=Source+Sans+Pro&display=swap');
 header{
     display: grid;
     background-color: #F7BF50;
@@ -7,7 +7,7 @@ header{
     align-items: center;
     font-size: x-large;
     padding: 25px 50px;
-    font-family: 'Gloock', 'Poppins', 'Roboto', sans-serif;
+    font-family: 'Oswald', 'Roboto', 'Source+Sans+Pro', sans-serif;
 }
 #navbar{
     overflow: hidden;
@@ -111,7 +111,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Gloock', 'Poppins', 'Roboto', sans-serif;
+    font-family: 'Oswald', 'Roboto', 'Source+Sans+Pro', sans-serif ;
 }
 footer a{
     color: black;
@@ -119,11 +119,52 @@ footer a{
     padding: 25px 50px;
 }
 footer a:hover{
-    color: blue;
+    color: white;
 }
 footer p{
     font-size: 1.2em;
 }
 footer p a:hover{
     text-decoration: underline;
+}
+/* This section is under the motivation sub-page */
+.ali{
+    color: antiquewhite;
+    font-family: 'Roboto', 'Source+Sans+Pro', sans-serif;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.imgali{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.damato{
+    margin-top: 200px;
+    color: antiquewhite;
+    font-family: 'Roboto', 'Source+Sans+Pro', sans-serif;
+    margin-left: 40px;
+}
+.imgdamato{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.mannyp{
+    margin-top: 200px;
+    color: antiquewhite;
+    font-family: 'Roboto', 'Source+Sans+Pro', sans-serif;
+    margin-left: 40px;
+}
+.tyson{
+margin-top: 200px;
+color: antiquewhite;
+font-family: 'Roboto', 'Source+Sans+Pro', sans-serif;
+margin-left: 40px;
+}
+.imgtyson{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.mannyimg{
+    margin-top: 20px;
+    margin-left: 80px;
 }
