@@ -168,3 +168,48 @@ margin-left: 40px;
     margin-top: 20px;
     margin-left: 80px;
 }
+/* This section is under get started sub-page*/
+.get{
+    font-family:'Gloock', 'Roboto', 'Source+Sans+Pro', sans-serif ;
+    color: antiquewhite;
+    margin-left: 600px;
+}
+.startk{
+    font-family:'Gloock', 'Roboto', 'Source+Sans+Pro', sans-serif; 
+    color: antiquewhite;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.badvice{
+    font-family: 'Roboto', 'Source+Sans+Pro', sans-serif ;
+    color: antiquewhite;
+    font-size: large;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.handwrap{
+    margin-left: 60px;
+    margin-bottom: 80px;
+    border: 7px solid black;
+}
+.combosd{
+    font-family:'Gloock', 'Roboto', 'Source+Sans+Pro', sans-serif; 
+    color: antiquewhite;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.comboadv{
+    font-family: 'Roboto', 'Source+Sans+Pro', sans-serif ;
+    color: antiquewhite;
+    font-size: large;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.sparring{
+    margin-left: 60px;
+    margin-bottom: 80px;
+    border: 7px solid black;
+}
+
